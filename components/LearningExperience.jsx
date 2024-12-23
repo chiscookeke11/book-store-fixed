@@ -3,7 +3,7 @@ import React from 'react'
 const LearningExperience = () => {
   return (
     <div className='w-full bg-[#FDF8EE] px-5  flex flex-row flex-wrap justify-center gap-[10%] items-center ' >
-     <div className='w-[320px] h-[400px] block mb-[-80px] relative lg:overflow-x-visible md:overflow-x-visible overflow-x-hidden'>
+     <div className='w-[320px] h-[400px] block mb-[-80px] relative lg:overflow-x-visible md:overflow-x-vi overflow-x-hidden'>
 
         <div className=' absolute top-0 left-0 w-[70px] h-[70px]  ' >
             <img src="https://res.cloudinary.com/dwedz2laa/image/upload/v1734698068/Group_4_yegkzz.svg" alt="" className='w-full h-full' />
@@ -39,7 +39,7 @@ const LearningExperience = () => {
 </div>
 
         <div className='font-roboto w-auto max-w-[500px] min-w-[300px] mt-[80px]' >
-            <h1 className='text-[#050C26] font-[700] text-[2.9rem] p-3 leading-tight ' >Premium <span className='text-[#FF7426]' > Learning</span> <br />
+            <h1 className='text-[#050C26] font-[700] lg:text-[2.9rem] md:text-[2.4rem] text-[2rem] px-3 pt-2 leading-tight ' >Premium <span className='text-[#FF7426]' > Learning</span> <br />
             Experience</h1>
 
             <div className='w-full p-1 mt-2' >  
@@ -59,7 +59,7 @@ const LearningExperience = () => {
                <img src="https://res.cloudinary.com/dwedz2laa/image/upload/v1734957940/jigsaw_1_e2zgzq.png" alt="" className='w-[30px] ' />
                </div>
                 <div>
-                    <h3 className='text-[#050C26] font-[500] text-[1.2rem] m-0'>Fun learning expe</h3>
+                    <h3 className='text-[#050C26] font-[500] text-[1.2rem] m-0 '>Fun learning expe</h3>
                     <p className='text-[#8A8A8A] font-[500] text-[0.9rem] '>Learning Will fell Very Comfortable With Courslab.</p>
                 </div>
             </div>

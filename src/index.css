@@ -6,3 +6,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+.blur-oval {
+    width: 80vw; 
+    height: 60vh; 
+    max-width: 960px; 
+    max-height: 700px;
+     background: #FF74261A;
+     backdrop-filter: blur(10px);
+     -webkit-backdrop-filter: blur(10px);
+     border-radius: 46%;
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     z-index: -1;
+  }

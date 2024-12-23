@@ -50,7 +50,7 @@ const Tracks = () => {
     ]
 
   return (
-    <div className='flex justify-center items-center flex-col w-full p-4 font-poppins text-center bg-[#fff]' >
+    <div className='flex justify-center items-center flex-col w-full p-4 font-poppins text-center bg-[#fff] relative' >
         <h1 className='text-[#000000] font-[600] text-[2rem] font-jost ' >Our Tracks</h1>
         <p className='text-[#8A8A8A] text-[1rem] font-[500]' >Lorem Ipsum is simply dummy text of the printing.</p>
 
@@ -82,6 +82,14 @@ const Tracks = () => {
                 </div>
             ) )} 
         </div>
+
+        <img src="https://res.cloudinary.com/dwedz2laa/image/upload/v1734973424/curly_arrow_u5uc8q.svg" alt="" 
+        className='absolute top-0 right-0 w-20 sm:w-20 md:w-24 lg:w-32 z-0 ' 
+        />
+
+<img src="https://res.cloudinary.com/dwedz2laa/image/upload/v1734973426/bulb_s4viey.svg" alt="" 
+        className='absolute top-0 left-0 w-20 sm:w-20 md:w-24 lg:w-32 z-0'
+        />
 
     </div>
   )
