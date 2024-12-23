@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from '../components/herosection/Hero'
 import PointBanner from '../components/pointsbanner/PointBanner'
 import Tracks from '../components/Tracks'
+import LearningExperience from '../components/LearningExperience'
 
 
 const HomePage = () => {
@@ -12,6 +13,7 @@ const HomePage = () => {
         <Hero/>
         <PointBanner/>
         <Tracks/>
+        <LearningExperience/>
     </div>
   )
 }

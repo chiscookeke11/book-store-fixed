@@ -50,7 +50,7 @@ const Tracks = () => {
     ]
 
   return (
-    <div className='flex justify-center items-center flex-col w-full p-4 font-poppins text-center' >
+    <div className='flex justify-center items-center flex-col w-full p-4 font-poppins text-center bg-[#fff]' >
         <h1 className='text-[#000000] font-[600] text-[2rem] font-jost ' >Our Tracks</h1>
         <p className='text-[#8A8A8A] text-[1rem] font-[500]' >Lorem Ipsum is simply dummy text of the printing.</p>
 
