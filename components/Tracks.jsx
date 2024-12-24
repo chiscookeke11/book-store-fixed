@@ -88,7 +88,7 @@ const Tracks = () => {
         />
 
 <img src="https://res.cloudinary.com/dwedz2laa/image/upload/v1734973426/bulb_s4viey.svg" alt="" 
-        className='absolute top-0 left-0 w-20 sm:w-20 md:w-24 lg:w-32 z-0'
+        className='absolute top-0 left-0 w-20 sm:w-20 md:w-24 lg:w-32 z-0 transform rotate-45 '
         />
 
     </div>

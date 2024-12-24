@@ -20,3 +20,27 @@
      transform: translateY(-50%);
      z-index: -1;
   }
+
+.custom-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+  }
+  
+
+  .custom-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: pink;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Active dot */
+  .custom-pagination .swiper-pagination-bullet-active {
+    background-color: #4d2c5e; 
+    width: 16px;
+    border-radius: 30px;
+  }
+  
