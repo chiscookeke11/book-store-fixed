@@ -4,6 +4,7 @@ import PointBanner from '../components/pointsbanner/PointBanner'
 import Tracks from '../components/Tracks'
 import LearningExperience from '../components/LearningExperience'
 import StudentTestimonial from '../components/StudentTestimonial'
+import TeacherTracks from '../components/TeacherTracks'
 
 
 const HomePage = () => {
@@ -16,6 +17,7 @@ const HomePage = () => {
         <Tracks/>
         <LearningExperience/>
         <StudentTestimonial/>
+        <TeacherTracks/>
     </div>
   )
 }
