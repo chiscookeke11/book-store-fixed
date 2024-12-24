@@ -47,7 +47,7 @@ const StudentTestimonial = () => {
         Lorem Ipsum is simply dummy text of the printing.
       </p>
 
-      <div className="testimonial-wrapper w-full flex flex-col items-center justify-center my-8 gap-6 font-Roboto ">
+      <div className="testimonial-wrapper w-full flex flex-col items-center justify-center my-0  font-Roboto ">
         
         <Swiper
           className="max-w-[1100px] flex items-center justify-center"
