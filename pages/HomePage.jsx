@@ -5,6 +5,7 @@ import Tracks from '../components/Tracks'
 import LearningExperience from '../components/LearningExperience'
 import StudentTestimonial from '../components/StudentTestimonial'
 import TeacherTracks from '../components/TeacherTracks'
+import Newsletter from  '../components/Newsletter'
 
 
 const HomePage = () => {
@@ -18,6 +19,7 @@ const HomePage = () => {
         <LearningExperience/>
         <StudentTestimonial/>
         <TeacherTracks/>
+        <Newsletter/>
     </div>
   )
 }

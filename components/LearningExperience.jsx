@@ -49,7 +49,7 @@ const LearningExperience = () => {
                <img src="https://res.cloudinary.com/dwedz2laa/image/upload/v1734957940/hearts_1_wb1myc.png" alt="" className='w-[30px] ' />
                </div>
                 <div>
-                    <h3 className='text-[#050C26] font-[500] text-[1.2rem] m-0' >Easily Accessible</h3>
+                    <h3 className='text-[#050C26] font-[600] text-[1.1rem] m-0' >Easily Accessible</h3>
                     <p className='text-[#8A8A8A] font-[500] text-[0.9rem] '>Learning Will fell Very Comfortable With Courslab.</p>
                 </div>
             </div>
@@ -59,7 +59,7 @@ const LearningExperience = () => {
                <img src="https://res.cloudinary.com/dwedz2laa/image/upload/v1734957940/jigsaw_1_e2zgzq.png" alt="" className='w-[30px] ' />
                </div>
                 <div>
-                    <h3 className='text-[#050C26] font-[500] text-[1.2rem] m-0 '>Fun learning expe</h3>
+                    <h3 className='text-[#050C26] font-[600] text-[1.1rem] m-0 '>Fun learning expe</h3>
                     <p className='text-[#8A8A8A] font-[500] text-[0.9rem] '>Learning Will fell Very Comfortable With Courslab.</p>
                 </div>
             </div>

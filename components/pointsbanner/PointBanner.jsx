@@ -23,7 +23,7 @@ const PointBanner = () => {
     ]
 
   return (
-    <div className="max-w-[75%] min-w-[350px] bg-[#4D2C5E] min-h-[180px] mx-auto mt-[-100px] mb-[100px] rounded-[14px] p-[10px] flex flex-col sm:flex-col md:flex-row lg:flex-row gap-1 justify-evenly flex-wrap"
+    <div className=" font-roboto max-w-[75%] min-w-[350px] bg-[#4D2C5E] min-h-[180px] mx-auto mt-[-100px] mb-[100px] rounded-[14px] p-[10px] flex flex-col sm:flex-col md:flex-row lg:flex-row gap-1 justify-evenly flex-wrap"
 >
        {points.map((item, index) => (
             <div className='w-1/3 min-w-[300px]  sm:w-[300px] flex items-start lg:flex-row  gap-3 mx-2 my-2' key={index} >
@@ -31,7 +31,7 @@ const PointBanner = () => {
             <img src={item.image} alt="" className='w-3/5' />
             </div>
                 <div className="text">
-                    <h2 className='text-[#fff] text-[1.1rem] font-[500] mb-[5px] '  >{item.heading} </h2>
+                    <h2 className='text-[#fff] text-[1.05rem] font-[500] mb-[5px] '  >{item.heading} </h2>
                     <p className='text-[#fff]  text-[0.85rem] font-[400] opacity-70 ' >{item.description} </p>
                 </div>
             </div>

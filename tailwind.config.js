@@ -9,6 +9,11 @@ export default {
       boxShadow: {
         custom: '0px 4px 25px 0px rgba(0, 0, 0, 0.1)', 
       },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+        jost: ['Jost', 'sans-serif'],
+        roboto: ['Roboto', 'sans-serif'],
+      },
     },
   },
   plugins: [],

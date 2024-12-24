@@ -24,23 +24,23 @@ const TeacherTracks = () => {
     ]
 
   return (
-    <div className='w-full p-3 flex flex-col items-center justify-start font-poppins mb-3' >
-         <h1 className="text-black font-semibold text-2xl font-jost text-center">
+    <div className='w-full p-3 flex flex-col items-center justify-start font-Roboto mb-3' >
+         <h1 className="text-black font-semibold text-2xl font-Jost text-center">
          Our Tracks
       </h1>
-      <p className="text-gray-500 text-base font-medium text-center">
+      <p className="text-gray-500 text-base font-medium text-center font-Poppins">
       Lorem Ipsum is simply dummy text of the printing.
       </p>
 
       <div className='flex flex-col lg:flex-row gap-3 items-center justify-center mt-5 w-full mx-auto '>
         {teacherCards.map((item, index) => (
 
-             <div key={index} className="teacher-card max-w-[380px] bg-white  shadow-xl p-6  mx-2  rounded-14px min-w-[280px] ">
+             <div key={index} className="teacher-card max-w-[380px] bg-white  shadow-xl p-6  mx-2  rounded-[14px] min-w-[280px] ">
              <img src={item.image} alt="" 
              className='rounded-[14px] w-full h-[170px]  object-fill mb-3 '
              />
              <div className="content">
-                 <h1 className='text-[#000000] font-[500] text-[1.2rem]' > {item.name}</h1>
+                 <h1 className='text-[#000000] font-[500] text-[1.05rem]' > {item.name}</h1>
                  <h5 className='text-[#868686]  text-sm font-[500] mb-3 ' >{item.position} </h5>
  
                  <p className='text-[#ACACAC] text-sm mb-2 ' > {item.text} </p>

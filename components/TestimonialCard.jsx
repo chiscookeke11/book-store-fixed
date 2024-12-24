@@ -2,7 +2,7 @@ import React from 'react'
 
 const TestimonialCard = ({name, text, image, role}) => {
   return (
-    <div className='max-w-[300px] bg-white shadow-xl p-6 font-roboto mx-2 ' >
+    <div className='max-w-[300px] bg-white shadow-xl p-6 font-Roboto mx-2 ' >
         <div>
             <p className='text-[#ACACAC] text-sm leading-relaxed mb-4 ' > "{text}" </p>
         </div>

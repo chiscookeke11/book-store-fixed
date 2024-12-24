@@ -30,7 +30,7 @@ const StudentTestimonial = () => {
       text: 'Complete account of the system and expound the actual contrary to popular belief, Lorem Ipsum is not simply random text.',
     },
     {
-      name: 'Okeke Chinedu Emmanuel',
+      name: 'Okeke Chinedu E.',
       role: 'Frontend Web Developer',
       image:
         'https://res.cloudinary.com/dwedz2laa/image/upload/v1734977983/Ellipse_36_tu6b2i.png',
@@ -40,14 +40,14 @@ const StudentTestimonial = () => {
 
   return (
     <div className="mt-24 w-full p-3 flex flex-col items-center justify-start relative min-h-[74vh] overflow-hidden">
-      <h1 className="text-black font-semibold text-2xl font-jost text-center">
+      <h1 className="text-black font-semibold text-2xl font-Jost text-center">
         What student’s say
       </h1>
-      <p className="text-gray-500 text-base font-medium text-center">
+      <p className="text-gray-500 text-base font-medium text-center font-Poppins ">
         Lorem Ipsum is simply dummy text of the printing.
       </p>
 
-      <div className="testimonial-wrapper w-full flex flex-col items-center justify-center my-8 gap-6">
+      <div className="testimonial-wrapper w-full flex flex-col items-center justify-center my-8 gap-6 font-Roboto ">
         
         <Swiper
           className="max-w-[1100px] flex items-center justify-center"
