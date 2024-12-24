@@ -7,7 +7,6 @@ import StudentTestimonial from '../components/StudentTestimonial'
 import TeacherTracks from '../components/TeacherTracks'
 import Newsletter from  '../components/Newsletter'
 import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
 
 
 const HomePage = () => {
@@ -15,7 +14,6 @@ const HomePage = () => {
     <div style={{
       backgroundColor: "F5F5F5",
     }} >
-      <Navbar/>
         <Hero/>
         <PointBanner/>
         <Tracks/>

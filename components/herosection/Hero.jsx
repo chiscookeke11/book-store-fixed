@@ -1,11 +1,13 @@
 import React from 'react'
 import "./heroStyle.css"
 import 'animate.css';
+import Navbar from '../Navbar';
 
 
 const Hero = () => {
   return (
     <div className='pb-[100px]'>
+          <Navbar/>
     <section className='hero-section' >
 
         <div className="text animate__animated  animate__bounceInDown">

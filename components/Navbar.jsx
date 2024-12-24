@@ -1,5 +1,6 @@
 import React, { useRef } from 'react'
 import { BiMenu } from 'react-icons/bi'
+import { FaTimes } from 'react-icons/fa'
 
 
 const Navbar = () => {
@@ -15,7 +16,7 @@ const selected = () => {
 }
   return (
     
-    <header className='w-full py-3 px-3 lg:px-10 bg-white flex flex-row items-center justify-between font-Roboto overflow-hidden  ' > 
+    <header className='w-full py-3 px-4 lg:px-10 bg-white flex flex-row items-center justify-between font-Roboto overflow-hidden  ' > 
         <img src="https://res.cloudinary.com/dwedz2laa/image/upload/v1734697716/Group_328_bsouo8.svg" alt="" className='w-28' />
 
 
@@ -30,6 +31,10 @@ const selected = () => {
                 <li className='mx-4 text-[#1D1D1D] text-lg font-[500] cursor-pointer'   onClick={selected} >Our Service</li>
                 <li className='mx-4 text-[#1D1D1D] text-lg font-[500] cursor-pointer'   onClick={selected}>Contact Us</li>
             </ul>
+            <FaTimes
+            className='absolute top-[10%] right-[10%] text-3xl text-white '
+            onClick={selected}
+            />
         </nav>
 
         <button className='bg-[#4D2C5E] text-white px-5 py-3 rounded-[218px] min-w-[130px] text-md ' >Sign in</button>
