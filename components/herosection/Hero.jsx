@@ -1,12 +1,14 @@
 import React from 'react'
 import "./heroStyle.css"
+import 'animate.css';
+
 
 const Hero = () => {
   return (
     <div className='pb-[100px]'>
     <section className='hero-section' >
 
-        <div className="text">
+        <div className="text animate__animated  animate__bounceInDown">
             <div className="top-text">
                 <h1>The <span>Smart</span> <br/>  
                 Choice For <span> Future</span></h1>
@@ -19,7 +21,7 @@ const Hero = () => {
             </div>
            
         </div>
-        <div className="right-image relative">
+        <div className="right-image relative text animate__animated  animate__bounceInUp">
           <div  className=' max-h-[250px] max-w-[250px]  absolute lg:right-[-8%] sm:right-0 top-[-8%] z-[-1] min-w-[100px] min-h-[100px] ' >
           <img src="https://res.cloudinary.com/dwedz2laa/image/upload/v1734869181/circle_isjpcn.svg" alt="" className='h-full w-full'/>
           </div>    

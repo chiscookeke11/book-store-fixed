@@ -2,7 +2,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='w-full bg-[#FDF8EE] p-5 flex flex-col lg:flex-row md:flex-row flex-wrap items-stretch justify-evenly font-Roboto ' >
+    <div className='w-full bg-[#FDF8EE]' >
+    <div className='w-full  p-5 flex flex-col lg:flex-row md:flex-row flex-wrap items-stretch justify-evenly font-Roboto ' >
 
         <div className='max-w-[318px] my-2 ' >
           <img src="https://res.cloudinary.com/dwedz2laa/image/upload/v1734697716/Group_328_bsouo8.svg" alt="" className='w-[155px] mb-4' />
@@ -49,6 +50,8 @@ const Footer = () => {
           </ul>
         </div>
 
+    </div>
+    <small className=' w-full text-center text-[#606060] block py-4 border-t border-[#B7B7B7] ' >BookStore All Right Reserved, 2022</small>
     </div>
   )
 }
