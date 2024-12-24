@@ -6,6 +6,7 @@ import LearningExperience from '../components/LearningExperience'
 import StudentTestimonial from '../components/StudentTestimonial'
 import TeacherTracks from '../components/TeacherTracks'
 import Newsletter from  '../components/Newsletter'
+import Footer from '../components/Footer'
 
 
 const HomePage = () => {
@@ -20,6 +21,7 @@ const HomePage = () => {
         <StudentTestimonial/>
         <TeacherTracks/>
         <Newsletter/>
+        <Footer/>
     </div>
   )
 }

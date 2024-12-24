@@ -13,7 +13,7 @@ const Newsletter = () => {
         
         <form onSubmit={handleSubmit} action="" className='w-full max-w-md min-w-sm bg-white px-3 py-1 flex flex-row items-stretch justify-center rounded-[62px] text-md z-10 ' >
           <input type="email" id="email" placeholder='Email Address' className='w-full border-none outline-none px-3 py-1 bg-transparent  ' />
-          <button type='submit' className='text-white bg-[#FF7426] px-3 py-3 min-w-[150px] rounded-[62px] font-normal font-Poppins  text-lg ' >Send</button>
+          <button type='submit' className='text-white bg-[#FF7426] px-3 py-3 min-w-[100px] rounded-[62px] font-normal font-Poppins  text-lg ' >Send</button>
         </form>
 
 

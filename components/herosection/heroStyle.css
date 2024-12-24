@@ -43,16 +43,15 @@
 }
 .hero-section .search-input {
   width: 100%;
-  padding: 10px 5px;
+  padding: 10px 0px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 10px;
   background-color: #fff;
   border-radius: 50px;
 }
 .hero-section .search-input input {
-  flex-grow: 1;
   height: 100%;
   background-color: #fff;
   outline: none;
@@ -62,10 +61,11 @@
   font-weight: 500;
   font-size: 1.1rem;
   letter-spacing: 0.5px;
+  min-width: 200px;
 }
 .hero-section .search-input button {
   width: 158px;
-  min-width: 100px;
+  min-width: 115px;
   background-color: #4d2c5e;
   border-radius: 96px;
   padding: 14px 5px;
