@@ -5,13 +5,13 @@ const Footer = () => {
     <div className='w-full bg-[#FDF8EE]' >
     <div className='w-full  p-5 flex flex-col lg:flex-row md:flex-row flex-wrap items-stretch justify-evenly font-Roboto ' >
 
-        <div className='max-w-[318px] my-2 ' >
+        <div className='max-w-[318px] my-2  ml-2 mr-4' >
           <img src="https://res.cloudinary.com/dwedz2laa/image/upload/v1734697716/Group_328_bsouo8.svg" alt="" className='w-[155px] mb-4' />
           <p className='text-[#606060] text-sm font-normal text-justify' >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy a type specimen book.</p>
         </div>
 
 
-        <div className='max-w-[318px] my-2 ' >
+        <div className='max-w-[318px] my-2 ml-2 mr-4' >
             <h1 className='text-[#00052E] text-lg font-bold   ' >Company</h1>
           <ul>
             <li className='text-[#606060] text-md py-1 my-1' ><a href="#"> About Us </a></li>
@@ -21,7 +21,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className='max-w-[318px] my-2 ' >
+        <div className='max-w-[318px] my-2 ml-2 mr-4 ' >
             <h1 className='text-[#00052E] text-lg font-bold   ' >Courses</h1>
           <ul>
             <li className='text-[#606060] text-md py-1 my-1' ><a href="#">Categories</a></li>
@@ -30,7 +30,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className='max-w-[318px] my-2 ' >
+        <div className='max-w-[318px] my-2 ml-2 mr-4' >
             <h1 className='text-[#00052E] text-lg font-bold   ' >Support</h1>
           <ul>
             <li className='text-[#606060] text-md py-1 my-1' ><a href="#">FAQ</a></li>
@@ -40,7 +40,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className='max-w-[318px] my-2 ' >
+        <div className='max-w-[318px] my-2 ml-2 mr-4' >
             <h1 className='text-[#00052E] text-lg font-bold   ' >Contact Info</h1>
           <ul>
             <li className='text-[#606060] text-md py-1 my-1' ><a href="#">+0913-705-3875</a></li>
